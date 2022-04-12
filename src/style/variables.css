@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Courgette;
+    src: url(../fonts/courgette.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Source-sans-pro;
+    src: url(../fonts/source-light.ttf), url(../fonts/source-regular.ttf), url(../fonts/source-bold.ttf) format("truetype");
+}
+
+:root{
+    --color01: #7FEE75;
+    --color02: #3DEB2D;
+    --color03: #2FB823;
+    --color04: #1C6B14;
+    --color05: #396B34;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --font-padrao: Source-sans-pro, sans-serif;
+    --font-destaque: Courgette, cursive;
+}
