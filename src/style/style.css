@@ -253,3 +253,16 @@ main{
     margin: 95px 0 30px 0;
     border-radius: 4px;
 }
+
+
+
+.contato{
+    background: var(--color01) url(../image/pexels-guilherme-stecanella-11056013.jpg) no-repeat center  ;
+    background-size: cover;
+    min-width: 320px;
+    max-width: 1366px;
+    min-height: 250px;
+    margin: 0 auto 30px auto;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0px 3.3px 7px rgba(0, 0, 0, 0.185);
+}
