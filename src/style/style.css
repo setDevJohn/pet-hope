@@ -14,7 +14,7 @@ body{
     height: 110px;
     margin: 0 auto;
     background-color: var(--color00);
-    box-shadow: 0px 7px 12px rgba(12, 12, 12, 0);
+    box-shadow: 0px 7px 12px rgba(12, 12, 12, 0.226);
     border-radius: 0 0 5px 5px;
 }
 
@@ -99,6 +99,8 @@ body{
     padding: 5px;
 } */
 
+
+
 main{
     background-color: var(--color01);
     min-width: 320px;
@@ -129,6 +131,8 @@ main{
     position: absolute;
     top: 39%;
 }
+
+
 
 .conheca{
     background-color: var(--color-white);
@@ -222,4 +226,30 @@ main{
 .conheca .veja-mais:hover{
     color: var(--color04);
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.315);
+}
+
+
+
+.sobre{
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 700px;
+}
+
+.sobre h3{
+    font-size: 3.4rem;
+    margin-top: 50px ;
+}
+
+.sobre p{
+    width:67%;
+    font-size: 3rem;
+    text-align: center;
+    padding: 30px;
+    margin: 95px 0 30px 0;
+    border-radius: 4px;
 }
