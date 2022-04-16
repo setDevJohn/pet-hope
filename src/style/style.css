@@ -10,6 +10,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-width: 320px;
     max-width: 2000px;
     height: 110px;
     margin: 0 auto;
@@ -65,39 +66,6 @@ body{
     color: var(--color03);
 }
 
-/* .cabecalho .formulario{
-    position: absolute;
-    right: 35px;
-    bottom: -210px;
-    z-index: 10;
-    background-color: var(--color02);
-    font-size: 1.8rem;
-    width: 220px;
-    border-radius: 6px;
-}
-
-.cabecalho .formulario form{
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
-}
-
-.formulario form div:nth-child(n){
-    margin-bottom: 10px;
-}
-
-.formulario form .genero input:nth-child(2), 
-.formulario form .idade input:nth-child(2){
-    margin-right: 15px;
-}
-
-.formulario form button{
-    font-size: 1.8rem;
-    width: 100px;
-    align-self: center;
-    margin-top: 15px;
-    padding: 5px;
-} */
 
 
 
@@ -115,17 +83,16 @@ main{
     display: flex;
     position: relative;
     width: 100%;
-    height: 735px;
+    max-height: 790px;
     justify-content: center;
     align-items: center;
-    background: url(../image/pexels-burst-374906.jpg) center center no-repeat;
-    background-size: cover;
-    box-shadow: inset 0px 7px 12px rgba(12, 12, 12, 0.274)
+    box-shadow: inset 0px 7px 12px rgba(12, 12, 12, 0.274);
+    transition: 0.3s ease-in;
 }
 
 .home h2{
     color: var(--color-white);
-    font-size: 4rem;
+    font-size: 4.2rem;
     font-family: var(--font-destaque);
     text-shadow: rgba(0, 0, 0, 0.490) 2px 2px 5px;
     position: absolute;
@@ -148,7 +115,7 @@ main{
 }
 
 .conheca h3{
-    font-size: 3.4rem;
+    font-size: 3.9rem;
     margin-top: 50px;
     color: var(--color-white);
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.267);
@@ -241,7 +208,7 @@ main{
 }
 
 .sobre h3{
-    font-size: 3.4rem;
+    font-size: 3.9rem;
     margin-top: 50px ;
 }
 
@@ -257,7 +224,8 @@ main{
 
 
 .contato{
-    background: var(--color01) url(../image/pexels-guilherme-stecanella-11056013.jpg) no-repeat center  ;
+    position: relative;
+    background: var(--color01) url(../image/background-footer.jpg) no-repeat center center ;
     background-size: cover;
     min-width: 320px;
     max-width: 1366px;
@@ -266,3 +234,45 @@ main{
     border-radius: 0 0 5px 5px;
     box-shadow: 0px 3.3px 7px rgba(0, 0, 0, 0.185);
 }
+
+.contato .menu-footer{
+    position: absolute;
+    display: flex;
+    top: 25%;
+    left: 30%;
+    transform: translateX(-50%);
+}
+
+.contato .menu-footer a{
+    margin: 20px;
+    font-size: 2.5rem;
+    color: var(--color-white);
+}
+
+.contato .menu-footer a:hover{
+    text-decoration: underline;
+}
+
+.contato .social{
+    position: absolute;
+    top: 25%;
+    right: 30%;
+    transform: translateX(50%);
+}
+
+.contato .social a i{
+    color: var(--color-white);
+    font-size: 3rem;
+    margin-left: 20px;
+}
+
+.contato .endereco{
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.2rem;
+    color: var(--color-white);
+}
+
+
