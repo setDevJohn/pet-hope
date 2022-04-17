@@ -48,21 +48,131 @@
 }
 
 @media(max-width:650px){
-    .sobre .decoracao-3{
-        top: 3.6%;
+    .home h2{
+        top: 35%;
+        font-size: 3rem;
     }
 
+
+    .conheca h3{
+        font-size: 3rem;
+    }
+    .conheca .cachorro-adocao{
+        width: 270px;
+        height: 320px;
+        margin: 22px;
+    }
+    .adocao .cachorro-adocao img{
+        width: 240px;
+        height: 260px;
+    }
+
+
+    .sobre p{
+        font-size: 2.2rem;
+        width: 80%;
+    }
+    .sobre .decoracao-3{
+        top: 3%;
+    }
     .sobre .decoracao-4{
         display: none;
     }
-
     .sobre .decoracao-5{
         display: block;
     }
+
+
+    .contato .menu-footer{
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .contato .social{
+        top: 65%;
+        right: 50%;
+        transform: translateX(50%);  
+    }
+    .contato .endereco{
+        bottom: 10%;
+    }
 }
 
-@media(max-width:469px){
+@media(max-width:495px){
+    .cabecalho{
+        display: block;
+        height: 228px;
+    }
+    .cabecalho .logo{
+        margin: 0 auto;
+        padding: 10px 0 10px 0;
+    }
+    .cabecalho .logo a{
+        justify-content: center;
+        margin:0;
+        text-align: center;
+    }
+    .cabecalho .logo a h1{
+        font-size: 3rem;
+    }
+    .cabecalho .logo a img{
+        width: 50px;
+        height: 50px;
+    }
+    .cabecalho .menu{
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .cabecalho .menu li{
+        font-size: 1.8rem;
+        margin: 6px 0;
+        
+    }
+    .cabecalho .menu li a{
+        padding: 6px;
+    }
+
+
+    .home h2{
+        font-size: 2.5rem;
+    }
+
+
+    .conheca h3{
+        font-size: 2.4rem;
+    }
+    .adocao .cachorro-adocao{
+        width: 220px;
+        height: 280px;
+    }
+    .adocao .cachorro-adocao img{
+        width: 200px;
+        height: 220px;
+    }
+    .adocao .cachorro-adocao .descricao{
+        font-size: 2rem;
+        width: 190px;
+        top: 15%;
+    }
+    .conheca .veja-mais{
+        font-size: 1.9rem;
+        padding: 6px;
+        width: 150px;
+    }
     .sobre .decoracao-3{
-        top: 4.4%;
+        top: 3%;
+    }
+
+
+    .contato .menu-footer a{
+        font-size: 2.2rem;
+    }
+    .contato .social a i{
+        font-size: 2.5rem;
+    }
+    .contato .endereco{
+        font-size: 1.9rem;
     }
 }
