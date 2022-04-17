@@ -33,6 +33,7 @@ body{
 }
 
 .cabecalho .logo h1{
+    font-family: var(--font-titulo);
     color: var(--color05);
     transition: 0.2s ease-in-out;
     font-size: 3.8rem;
