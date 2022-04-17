@@ -1,0 +1,68 @@
+@media(max-width:880px){
+    .cabecalho{
+        flex-direction: column;
+        height: 220px;
+    }
+    .cabecalho .logo a{
+        margin-top: 40px;
+    }
+    .cabecalho .logo a h1{
+        font-size: 3.7rem;
+    }
+    .cabecalho .menu li{
+        margin-bottom: 20px;
+    }
+
+
+    .home h2{
+        font-size: 3.5rem;
+    }
+
+
+    .conheca h3{
+       font-size: 3.4rem; 
+    }
+    .adocao .cachorro-adocao h3{
+        font-size: 2.4rem;
+    }
+    .conheca .veja-mais{
+        font-size: 2.1rem;
+    }
+
+
+    .sobre .decoracao-1{
+        display: none;
+    }
+    .sobre .decoracao-2{
+        display: none;
+    }
+    .sobre .decoracao-3{
+        display: block;
+    }
+    .sobre .decoracao-4{
+        display: block;
+    }
+    .sobre p{
+        font-size: 2.7rem;
+    }
+}
+
+@media(max-width:650px){
+    .sobre .decoracao-3{
+        top: 3.6%;
+    }
+
+    .sobre .decoracao-4{
+        display: none;
+    }
+
+    .sobre .decoracao-5{
+        display: block;
+    }
+}
+
+@media(max-width:469px){
+    .sobre .decoracao-3{
+        top: 4.4%;
+    }
+}
