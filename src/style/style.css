@@ -23,18 +23,19 @@ body{
     display: flex;
     align-items: center;
     margin: 20px;
-    font-size: 2rem;
 }
 
 .cabecalho .logo a img{
     width: 64px;
     height: 64px;
     margin-right: 7px;
+    
 }
 
 .cabecalho .logo h1{
     color: var(--color05);
     transition: 0.2s ease-in-out;
+    font-size: 3.8rem;
 }
 
 .cabecalho .logo:hover h1{
@@ -47,7 +48,7 @@ body{
 }
 
 .cabecalho .menu li{
-    font-size: 2.2rem;
+    font-size: 2.1rem;
     margin: 0 10px 0 5px;
 }
 
@@ -198,6 +199,7 @@ main{
 
 
 .sobre{
+    position: relative;
     background-color: var(--color-white);
     display: flex;
     flex-direction: column;
@@ -207,17 +209,75 @@ main{
     min-height: 700px;
 }
 
+.sobre .decoracao-1{
+    position: absolute;
+    background: url(../image/decoracao-1.png) center center no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    bottom: -2%;
+    right: 1%;
+}
+
+.sobre .decoracao-2{
+    position: absolute;
+    background: url(../image/decoracao-2.png) center center no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    top: 15%;
+    left: 1%;
+}
+
+.sobre .decoracao-3{
+    display: none;
+    position: absolute;
+    top: 2.9%;
+    transform: translateX(88%);
+    width: 120px;
+    height: 120px;
+    background:url(../image/decoracao-3.webp) center center no-repeat;
+    background-size: contain;
+    z-index: 1;
+}
+
+.sobre .decoracao-4{
+    display: none;
+    position: absolute;
+    background: url(../image/decoracao-4.webp) center center no-repeat;
+    background-size: contain;
+    width: 250px;
+    height: 250px;
+    left: -7%;
+    bottom: 1%;
+    transform: rotate(14deg);
+}
+
+.sobre .decoracao-5{
+    display: none;
+    position: absolute;
+    background: url(../image/decoracao-5.png) center center no-repeat;
+    background-size: contain;
+    width: 120px;
+    height: 120px;
+    bottom: -2%;
+    left: 1%;
+    z-index: 1;
+}
+
 .sobre h3{
     font-size: 3.9rem;
     margin-top: 50px ;
+    position: absolute;
+    top: 6.4%;
 }
 
 .sobre p{
-    width:67%;
+    width:62%;
     font-size: 3rem;
     text-align: center;
     padding: 30px;
-    margin: 95px 0 30px 0;
+    margin: 170px 0 100px 0;
     border-radius: 4px;
 }
 
