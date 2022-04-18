@@ -1,3 +1,13 @@
-# Projeto Pet Hope ![image](https://user-images.githubusercontent.com/95112157/163889785-481252ff-b9af-4901-8150-6d87bda82439.png)
+# Projeto Pet Hope 🐶
+Landing page de uma ONG fictícia de adoção de cachorros.
 
-Um projeto que eu criei de uma ONG de adoção de cachorros
+[<img src="src/gif/tela.gif">](https://jhonyfreitasdev.github.io/projeto-pet-hope/)
+
+## Layout do site
+Uma landing page simples com um menu 'Quero adotar que leva para uma página de cadastro'
+'''
+E na seção do conheça tenhos imagens de alguns cachorros com links para as páginas expecíficas deles e um botão abaixo para ir para todos os cachorros. 
+
+## Tecnologias ultilizadas
+- HTML
+- CSS
