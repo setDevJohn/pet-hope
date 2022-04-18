@@ -37,6 +37,7 @@
 
     .conheca h3{
        font-size: 3.4rem; 
+       text-shadow: 1px 1px 5px rgba(0, 0, 0, 40%);
     }
     .adocao .cachorro-adocao h3{
         font-size: 2.4rem;
@@ -174,6 +175,8 @@
     }
     .conheca .veja-mais{
         font-size: 1.9rem;
+        left: 50%;
+        transform:translateX(-50%);
         padding: 6px;
         width: 150px;
     }
