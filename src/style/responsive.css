@@ -72,7 +72,7 @@
 
 
     .conheca h3{
-        font-size: 3rem;
+        font-size: 2.8rem;
     }
     .conheca .cachorro-adocao{
         width: 270px;
@@ -115,10 +115,16 @@
     }
 }
 
+@media(max-width:555px){
+    .conheca h3{
+        font-size: 2.4rem;
+    }
+}
+
 @media(max-width:495px){
     .cabecalho{
         display: block;
-        height: 228px;
+        height: 170px;
     }
     .cabecalho .logo{
         margin: 0 auto;
@@ -137,14 +143,12 @@
         height: 50px;
     }
     .cabecalho .menu{
-        flex-direction: column;
-        align-items: center;
-        width: 50%;
-        margin: 0 auto;
+        justify-content: center;
+        margin-top: 20px;
     }
     .cabecalho .menu li{
         font-size: 1.8rem;
-        margin: 6px 0;
+        margin: 6px;
         
     }
     .cabecalho .menu li a{
@@ -156,9 +160,8 @@
         font-size: 2.5rem;
     }
 
-
     .conheca h3{
-        font-size: 2.4rem;
+        font-size: 2.2rem;
     }
     .adocao .cachorro-adocao{
         width: 220px;
@@ -179,6 +182,7 @@
         transform:translateX(-50%);
         padding: 6px;
         width: 150px;
+        box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.130);
     }
     .sobre .decoracao-3{
         top: 3%;
@@ -193,5 +197,26 @@
     }
     .contato .endereco{
         font-size: 1.9rem;
+    }
+}
+
+@media(max-width:407px){
+    .cabecalho .menu li{
+        margin: 4px;
+    }
+}
+
+@media(max-width:390px){
+    .cabecalho{
+        height: 235px;
+    }
+    .cabecalho .menu{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5px;
+    }
+
+    .cabecalho .menu li{
+        margin: 7px;
     }
 }
