@@ -115,9 +115,10 @@ main{
 }
 
 .conheca h3{
-    font-size: 3.9rem;
+    font-size: 4rem;
     margin-top: 50px;
     color: var(--color-white);
+    font-family: var(--font-titulo);
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.267);
 }
 
