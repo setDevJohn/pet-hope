@@ -12,6 +12,12 @@
     .home{
         margin-top: 70px;
     }
+
+
+    .contato{
+        margin: 0 auto 30px auto;
+        border-radius: 0 0 5px 5px;
+    }
 }
 
 @media(max-width:880px){
