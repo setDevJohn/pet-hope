@@ -3,6 +3,7 @@ Landing page de uma ONG fictícia de adoção de cachorros.
 
 ## 🔗 Acesso ao projeto
 <a href="https://jhonyfreitasdev.github.io/projeto-pet-hope/">Clique aqui para ir para a página</a>
+
 [<img src="src/gif/tela.gif">](https://jhonyfreitasdev.github.io/projeto-pet-hope/)
 
 ## Layout do site
